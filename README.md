@@ -62,4 +62,4 @@ Project created by **Cristian Florin Cojocaru** (student **CS.1** - **University
 
 
 # License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
