@@ -42,6 +42,7 @@ The main() function is the entry point of the program and handles user interacti
 
 Essentially, this code allows the user to explore the concept of Levenshtein distance, which is useful in various fields such as spell checking, speech recognition, and bioinformatics.
 
+> [!NOTE]
 An example I tested is for length 4, then selecting the 'correct' option: **func(book)**. Testing this 'correct' option with the user-entered 'incorrect' option **"func(bocker)"**. Upon verification, it displayed **3**; the *'c'* was replaced with *'o'*, and *'e'* & *'r'* were removed to reach the initial (correct) version.
 
 
@@ -54,6 +55,7 @@ The program will first ask you to enter the desired length of the words you want
 
 You will be asked to choose one of the displayed options by typing the chosen option (e.g., *'func(lemon)'*). The program will then ask you to enter an 'incorrect' version of the previously chosen option (e.g., *'func(lebron'*). After entering the data, the program will display the minimum number of operations to transform the 'incorrect' version into the 'correct' version (e.g., *3*).
 
+> [!IMPORTANT]
 For using the program in Python, please download the file: **"main.py"**. The usage of the program in **Python** is identical to that in **C**.
 
 
