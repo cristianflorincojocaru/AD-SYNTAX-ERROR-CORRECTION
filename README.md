@@ -1,7 +1,7 @@
 # Algorithm Design - Syntax Error Correction
 
 
-## Problem Statement
+## Problem statement
 We have the task of developing an algorithm for an advanced code editor that automatically corrects syntax errors in programming languages. It is assumed that we receive a clear specification of the valid syntax of the programming language in the form of a "rule" and a code snippet that contains syntax errors, meaning it does not conform to that rule.
 
 Our objective is to build an algorithm that determines the minimum number of operations necessary to transform the given code snippet into one that adheres to the specified rule. These operations can include character substitutions, insertions, or deletions.
@@ -16,7 +16,7 @@ Given code snippet: “fnuc(myFuncion”
 Our goal is to find the minimum number of operations needed to correct the code snippet so that it matches the defined rule. These operations could include, for example, swapping the characters "n" and "u" to get "func", then inserting the missing characters "t" and ")", so that we obtain "func(myFunction)" according to the given rule.
 
 
-## Problem Description
+## Problem description
 In this project, we need to develop an algorithm for an advanced code editor aimed at automatically correcting syntax errors in programming languages. This algorithm receives two essential inputs: a clear specification of the valid syntax of the programming language in the form of a "rule" and a code snippet that does not conform to this rule.
 
 Our objective is to determine the minimum number of operations necessary to transform the given code snippet into one that adheres to the specified rule. These operations can include character substitutions, insertions, or deletions.
@@ -25,7 +25,7 @@ To achieve this, our algorithm will need to compare the given code snippet with 
 The ultimate goal is to arrive at a code snippet that adheres to the syntax rules using the smallest possible number of operations. This will ensure that the corrected code snippet is functional and can be appropriately used within the given programming language. By addressing this problem, we aim to develop an efficient and accurate algorithm that facilitates the process of correcting syntax errors in source code, thereby improving the quality and efficiency of software development.
 
 
-## Example, Ideas & Solutions
+## Example, ideas & solutions
 A clear example is the one from the statement, which presents swapping and then inserting characters to ultimately obtain the correct version.
 
 For verifying the correctness of the code, the examples that can be checked are at the user's discretion, being restricted only by the length of the words, which must be at least 2 characters long (e.g., me, you, up, go, etc.), with an example reaching up to 10 or 11 letters for verification (e.g., experiment, decisional, perspective). But be careful! Any word longer than this becomes harder for the user to inspect and verify the program's correctness thoroughly.
