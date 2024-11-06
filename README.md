@@ -59,9 +59,9 @@ You will be asked to choose one of the displayed options by typing the chosen op
 For using the program in Python, please download the file: **"main.py"**. The usage of the program in **Python** is identical to that in **C**.
 
 
-## Contributions :
-Project created by **Cristian Florin Cojocaru** (**CS.1** - **University of Craiova / Faculty of Automatics, Computer Science and Electronics**). Contributions are welcome! If you have suggestions for improving the code or documentation, please submit a pull request.
+## Contributions 
+Project created by **Cristian Florin Cojocaru** (**CS.1** - **University of Craiova / Faculty of Automatics, Computer Science and Electronics**). Contributions are welcome ! If you have suggestions for improving the code or documentation, please submit a pull request.
 
 
-## License :
+## License
 This project is licensed under the [MIT License](LICENSE).
