@@ -60,7 +60,7 @@ For using the program in Python, please download the file: **"main.py"**. The us
 
 
 ## Contributions 
-Project created by **Cristian Florin Cojocaru** (**CS.1** - **University of Craiova / Faculty of Automatics, Computer Science and Electronics**). Contributions are welcome ! If you have suggestions for improving the code or documentation, please submit a pull request.
+Project created by **Cristian Florin Cojocaru** (**CSE.1** - **University of Craiova / Faculty of Automatics, Computer Science and Electronics**). Contributions are welcome ! If you have suggestions for improving the code or documentation, please submit a pull request.
 
 
 ## License
