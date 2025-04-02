@@ -28,17 +28,17 @@ The ultimate goal is to arrive at a code snippet that adheres to the syntax rule
 ## EXAMPLE, IDEAS & SOLUTIONS :
 A clear example is the one from the statement, which presents swapping and then inserting characters to ultimately obtain the correct version.
 
-For verifying the correctness of the code, the examples that can be checked are at the user's discretion, being restricted only by the length of the words, which must be at least 2 characters long (e.g., me, you, up, go, etc.), with an example reaching up to 10 or 11 letters for verification (e.g., experiment, decisional, perspective). But be careful! Any word longer than this becomes harder for the user to inspect and verify the program's correctness thoroughly.
+For verifying the correctness of the code, the examples that can be checked are at the user's discretion, being restricted only by the length of the words, which must be at least 2 characters long (e.g., me, you, up, go, etc.), with an example reaching up to 10 or 11 letters for verification (e.g., experiment, decisional, perspective). **BUT BE CAREFUL!** Any word longer than this becomes harder for the user to inspect and verify the program's correctness thoroughly.
 
 To successfully complete such a program, we used 3 main functions:
 
 **select_words(num_letters)** <-> **levenshtein_distance(s1, s2)** <-> **main()**.
 
-The function select_words(num_letters) displays a list of words of the specified length for the user to choose from. Although the function does not return anything, it shows the list of words that meet the length criterion.
+The function 'select_words(num_letters)' displays a list of words of the specified length for the user to choose from. Although the function does not return anything, it shows the list of words that meet the length criterion.
 
-The function levenshtein_distance(s1, s2) implements the Levenshtein distance algorithm between two strings s1 and s2. This distance represents the minimum number of operations (insertion, deletion, or substitution of a single character) necessary to transform one string into the other. The algorithm works by using a matrix to calculate the transformation costs and finding the path with the lowest cost.
+The function 'levenshtein_distance(s1, s2)' implements the Levenshtein distance algorithm between two strings s1 and s2. This distance represents the minimum number of operations (insertion, deletion, or substitution of a single character) necessary to transform one string into the other. The algorithm works by using a matrix to calculate the transformation costs and finding the path with the lowest cost.
 
-The main() function is the entry point of the program and handles user interaction. Firstly, it prompts the user to enter the desired word length. Then, it displays the available words of that length. The user is asked to enter the chosen word and an incorrect version of that word. It then calculates and displays the Levenshtein distance between the two input words.
+The 'main()' function is the entry point of the program and handles user interaction. Firstly, it prompts the user to enter the desired word length. Then, it displays the available words of that length. The user is asked to enter the chosen word and an incorrect version of that word. It then calculates and displays the Levenshtein distance between the two input words.
 
 Essentially, this code allows the user to explore the concept of Levenshtein distance, which is useful in various fields such as spell checking, speech recognition, and bioinformatics.
 
@@ -56,7 +56,7 @@ The program will first ask you to enter the desired length of the words you want
 You will be asked to choose one of the displayed options by typing the chosen option (e.g., *'func(lemon)'*). The program will then ask you to enter an 'incorrect' version of the previously chosen option (e.g., *'func(lebron'*). After entering the data, the program will display the minimum number of operations to transform the 'incorrect' version into the 'correct' version (e.g., *3*).
 
 > [!IMPORTANT]
-For using the program in Python, please download the file: **"main.py"**. The usage of the program in **Python** is identical to that in **C**.
+For using the program in **Python**, please download the file: **"main.py"**. The usage of the program in **Python** is identical to that in **'C'**.
 
 
 ## CONTRIBUTIONS 
