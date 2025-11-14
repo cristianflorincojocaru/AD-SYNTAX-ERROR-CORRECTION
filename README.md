@@ -1,4 +1,4 @@
-# Algorithm Design - Syntax Error Correction
+# Algorithm Design - SYNTAX ERROR CORRECTION
 
 
 ## PROBLEM STATEMENT : 
