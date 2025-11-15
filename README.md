@@ -30,7 +30,7 @@ A clear example is the one from the statement, which presents swapping and then 
 
 For verifying the correctness of the code, the examples that can be checked are at the user's discretion, being restricted only by the length of the words, which must be at least 2 characters long (e.g., me, you, up, go, etc.), with an example reaching up to 10 or 11 letters for verification (e.g., experiment, decisional, perspective). **BUT BE CAREFUL!** Any word longer than this becomes harder for the user to inspect and verify the program's correctness thoroughly.
 
-To successfully complete such a program, we used 3 main functions:
+To successfully complete such a program, we used 3 main functions :
 
 **select_words(num_letters)** <-> **levenshtein_distance(s1, s2)** <-> **main()**.
 
